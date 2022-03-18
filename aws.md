@@ -1,7 +1,15 @@
+
+
+## profile
 ``` bash
 
 # setup credentials
 aws configure list-profiles
+
+```
+
+## s3
+``` bash
 
 # cp bucket files to local
 aws s3 cp <remote_bucket_dir_path> <local_dir_path> --recursive
@@ -16,5 +24,12 @@ aws s3 ls <remote_bucket_dir_path>
 
 # remove bucket files
 aws s3 rm <remote_bucket_dir_path> --recursive    
+```
+
+## dynamodb
+``` bash
+
+# check table locally
+aws dynamodb list-tables --endpoint-url http://localhost:8000
 
 ```

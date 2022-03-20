@@ -33,3 +33,8 @@ aws s3 rm <remote_bucket_dir_path> --recursive
 aws dynamodb list-tables --endpoint-url http://localhost:8000
 
 ```
+
+
+
+## references
+1. [official doc](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html)
